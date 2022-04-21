@@ -1,4 +1,4 @@
-package com.qa.blackjack;
+package com.qa.taxes;
 
 public class Taxes {
 	
