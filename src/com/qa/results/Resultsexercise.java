@@ -16,6 +16,10 @@ public class Resultsexercise {
 	public static void totalPercentage(int biology, int chemistry, int physics) {
 		double total = ((biology + chemistry + physics) * 100) / 450;
 		System.out.println("Student overall precentage =  " + total + "%");
+		if (total < 60 || bio < 60 || chem < 60 || phys < 60 ) {
+			System.out.println("Student has failed");
+		}
+		
 	}
 		
 
